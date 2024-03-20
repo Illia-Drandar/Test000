@@ -31,6 +31,7 @@ int main()
     thread2.join();
 
     int *i = new int[1000];
+    *i = *i/0;
     return 0;
 }
 
