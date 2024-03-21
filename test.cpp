@@ -30,8 +30,6 @@ int main()
     thread1.join();
     thread2.join();
 
-    int *i = new int[1000];
-    *i = *i/0;
     return 0;
 }
 
